@@ -34,7 +34,7 @@ __Improvements in Version 2:__
 - clearing of NVRAM support added
 - proper preservation of NVRAM and Firmware Lock Section Headers
 - proper masking of crc32 values
-- extensive error handling implimented
+- extensive error handling implemented
 ```
 
 __Note:__ 
