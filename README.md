@@ -19,12 +19,12 @@ __Note:__ You can drag and drop files into the terminal to avoid having to type 
 
 __Options:__
 ```
--i <input filename>	    -- name of the file to be modified
+-i <input filename>     -- name of the file to be modified
 -o <output filename>	  -- name of the newly modified file
 -s <serial to insert>	  -- serial number to be inserted
--m <me region file>	    -- name of the me region file to insert
--n   			              -- clear NVRAM
--l   			              -- remove firmware lock
+-m <me region file>     -- name of the me region file to insert
+-n                      -- clear NVRAM
+-l                      -- remove firmware lock
 ```
 
 __Improvements in Version 2:__
