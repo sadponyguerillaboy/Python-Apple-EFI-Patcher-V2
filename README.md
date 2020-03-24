@@ -40,6 +40,7 @@ __Improvements in Version 2:__
 - proper preservation of NVRAM and Firmware Lock Section Headers
 - proper masking of crc32 values
 - extensive error handling implemented
+- database manipulation improvements
 ```
 
 __Note:__ 
