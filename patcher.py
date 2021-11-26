@@ -247,7 +247,7 @@ def main(argv):
 				except NameError:
 					print(colored('Error: Patch Variable Unassigned', 'red'))
 				else:
-					patchedCrc = '{:02x}'.format(binascii.crc32(patchedFsys4) & 0xffffffff)
+					patchedCrc = '{:08x}'.format(binascii.crc32(patchedFsys4) & 0xffffffff)
 					patchedCrcReversed = ("".join(reversed([patchedCrc[i:i+2] for i in range(0, len(patchedCrc), 2)])))
 					patchedCrcReversedBytes = bytes.fromhex(patchedCrcReversed)
 
